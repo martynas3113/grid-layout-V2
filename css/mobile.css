@@ -7,87 +7,87 @@
         grid-template-rows: 200px 200px 200px 200px 200px 200px 200px
     }
 
-    header {
-        grid-row: 1/2;
-        grid-column: 2/3;
-        background-color: aqua;
-        vertical-align: middle;
-        position: sticky;
-        top: 0px;
-        text-align: center;
-        
-        
-        
-    }
-
-        header > p {
-            margin-top: 80px;
+        header {
+            grid-row: 1/2;
+            grid-column: 2/3;
+            background-color: aqua;
+            vertical-align: middle;
+            position: sticky;
+            top: 0px;
+            text-align: center;
+            
+            
+            
         }
 
-    menu {
-        grid-row: 2/3;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: aquamarine;
-        
-    }
+            header > p {
+                margin-top: 80px;
+            }
 
-        menu > p {
-            margin-top: 80px;
+        menu {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: aquamarine;
+            
         }
 
-    .hero {
-        grid-row: 3/4;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: bisque;
-    }
+            menu > p {
+                margin-top: 80px;
+            }
 
-        .hero > p {
-            margin-top: 80px;
+        .hero {
+            grid-row: 3/4;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: bisque;
         }
 
-    main {
-        grid-row: 4/5;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: brown;
-    }
+            .hero > p {
+                margin-top: 80px;
+            }
 
-        main > p {
-            margin-top: 80px;
+        main {
+            grid-row: 4/5;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: brown;
         }
 
-    .banner {
-        grid-row: 5/6;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: coral;
-    }
+            main > p {
+                margin-top: 80px;
+            }
 
-        .banner > p {
-            margin-top: 80px;
+        .banner {
+            grid-row: 5/6;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: coral;
         }
 
-    .extra {
-        grid-row: 6/7;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: cornflowerblue;
-    }
+            .banner > p {
+                margin-top: 80px;
+            }
 
-        .extra > p {
-            margin-top: 80px;
+        .extra {
+            grid-row: 6/7;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: cornflowerblue;
         }
 
-    .image {
-        grid-row: 7/8;
-        grid-column: 2/3;
-        text-align: center;
-        background-color: darkcyan;
-    }
+            .extra > p {
+                margin-top: 80px;
+            }
 
-        .image > p {
-            margin-top: 80px;
+        .image {
+            grid-row: 7/8;
+            grid-column: 2/3;
+            text-align: center;
+            background-color: darkcyan;
         }
+
+            .image > p {
+                margin-top: 80px;
+            }
 }
