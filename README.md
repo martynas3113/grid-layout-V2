@@ -8,3 +8,6 @@ Features :
 -Responsive design <br>
 -Fixed header on mobile version <br>
 -Colors to better undestand responsive design
+
+
+You can check project here : https://martynas3113.github.io/grid-practice/
